@@ -13,7 +13,10 @@ end
 def link
   puts "It's Dangerous To Go Alone! Take This."
   
-  
+  def any_phrase = (phrase)
+    
+    phrase = "Do a Barrel Roll!"
+    
 describe "mario"do
   it "puts out 'It's a me, Mario!'"do
     expect {mario}.to output ("It's-a me, Mario!\n").to_stdout
